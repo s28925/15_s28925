@@ -1,5 +1,9 @@
 import math
 
+# Task 6: Modules
+
+from square_generator import *
+
 # Task 1: List Comprehensions
 
 squared_numbers = [n * n for n in range(1, 11)]
@@ -16,19 +20,6 @@ def e_squares(start, end):
 print(e_squares(1, 11))
 
 # Task 3: Classes
-
-
-class SquareGenerator:
-    def generate_squares(self, start, end):
-
-        # Task 5: Exceptions
-        if start > end:
-            print("The start of the range cannot be higher than the end of the range")
-            return None
-
-        result = [n * n for n in range(start, end)]
-        return result
-
 
 square_generator_result = SquareGenerator().generate_squares(1, 11)
 print(square_generator_result)
