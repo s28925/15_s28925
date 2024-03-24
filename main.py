@@ -1,8 +1,9 @@
 import math
 
 # Task 6: Modules
+# Task 7: Packages
 
-from square_generator import *
+import square_generator
 
 # Task 1: List Comprehensions
 
@@ -21,7 +22,7 @@ print(e_squares(1, 11))
 
 # Task 3: Classes
 
-square_generator_result = SquareGenerator().generate_squares(1, 11)
+square_generator_result = square_generator.SquareGenerator().generate_squares(1, 11)
 print(square_generator_result)
 
 # Task 4: Libraries

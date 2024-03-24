@@ -1,4 +1,5 @@
 # Task 6: Modules
+# Task 7: Packages
 
 class SquareGenerator:
     def generate_squares(self, start, end):
