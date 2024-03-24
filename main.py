@@ -22,7 +22,7 @@ print(e_squares(1, 11))
 
 # Task 3: Classes
 
-square_generator_result = square_generator.SquareGenerator().generate_squares(1, 11)
+square_generator_result = square_generator.CubicGenerator().generate_squares(1, 11)
 print(square_generator_result)
 
 # Task 4: Libraries
