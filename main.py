@@ -12,3 +12,15 @@ def e_squares(start, end):
 
 
 print(e_squares(1, 11))
+
+# Task 3: Classes
+
+
+class SquareGenerator:
+    def generate_squares(self, start, end):
+        result = [n * n for n in range(start, end)]
+        return result
+
+
+square_generator_result = SquareGenerator().generate_squares(1, 11)
+print(square_generator_result)
