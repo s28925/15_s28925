@@ -1,3 +1,5 @@
+import math
+
 # Task 1: List Comprehensions
 
 squared_numbers = [n * n for n in range(1, 11)]
@@ -24,3 +26,8 @@ class SquareGenerator:
 
 square_generator_result = SquareGenerator().generate_squares(1, 11)
 print(square_generator_result)
+
+# Task 4: Libraries
+
+sqrt_list = [math.sqrt(n) for n in square_generator_result]
+print(sqrt_list)
